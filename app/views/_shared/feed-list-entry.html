@@ -1,0 +1,39 @@
+<div class="palm-row" x-mojo-touch-feedback="delayed">
+  <div class="palm-row-wrapper feedEntry">
+    <div class="basicInfo">
+      <img class="senderPic" src="#{sender.picture}">
+
+      <div class="rightFloater">
+	<div class="likesFloater">
+	  #{likesFormatted}
+	</div>
+
+	<div class="commentsFloater items-count-#{comments}">
+	  #{comments}
+	</div>
+      </div>
+
+      <div class="senderName truncating-text">#{sender.name}</div>
+      <div class="eventTime">#{timestampFormatted}</div>
+    </div>
+    
+    <div class="eventContent">
+      #{content}
+
+      <div class="attachment #{attachment.visible}">
+	<div class="name">
+	  <a href="#{attachment.href}">#{attachment.name}</a>
+	  <span class="caption" style="">#{attachment.caption}</span>
+
+	  <div class="picture">
+	    <a href="#{attachment.href}">
+	      <img src="#{attachment.picture}">
+	    </a>
+	  </div>
+	</div>
+	
+	<div class="description">#{-attachment.description}</div>
+      </div>
+    </div>
+  </div>
+</div>

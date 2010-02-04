@@ -1,0 +1,35 @@
+[
+    {"source": "app/assistants/stage-assistant.js"},
+    {
+        "scenes": "feed",
+        "source": "app/assistants/feed-assistant.js"
+    },
+    {
+        "scenes": "sign-in",
+        "source": "app/assistants/sign-in-assistant.js"
+    },
+    {
+        "scenes": "pre-sign-in",
+        "source": "app/assistants/pre-sign-in-assistant.js"
+    },
+    {
+        "scenes": "initial-preload",
+        "source": "app/assistants/initial-preload-assistant.js"
+    },
+    {
+        "scenes": "Profile",
+        "source": "app/assistants/Profile-assistant.js"
+    },
+    {
+        "scenes": "Comments",
+        "source": "app/assistants/Comments-assistant.js"
+    },
+    {
+        "scenes": "comments",
+        "source": "app/assistants/comments-assistant.js"
+    },
+    {
+        "scenes": "profile",
+        "source": "app/assistants/profile-assistant.js"
+    }
+]

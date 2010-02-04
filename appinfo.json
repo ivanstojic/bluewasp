@@ -1,0 +1,9 @@
+{
+	"id": "hr.algis.bluewasp",
+	"version": "1.0.0",
+	"vendor": "Algis",
+	"type": "web",
+	"main": "index.html",
+	"title": "BlueWasp",
+	"icon": "icon.png"
+}

@@ -1,0 +1,219 @@
+/* Put Application specific CSS here. */
+
+#crapSash {
+    -webkit-palm-mouse-target: ignore;
+    z-index: 99999;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    background: url(../images/crap.png) center center no-repeat;
+}
+
+#blueWaspAlgisSash {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 25px;
+    width: 320px;
+    background: url(../images/bluewasp-algis.png) center center no-repeat;
+}
+
+
+/* Pre-Sign-In scene */
+
+.palm-scene.pre-sign-in-scene #facebookLoginButton {
+    margin: 0 auto;
+    padding: 10px;
+    background: url(../images/facebook-login.png) center center no-repeat;
+    width: 160px;
+    height: 25px;
+}
+
+.palm-scene.pre-sign-in-scene .small {
+    font-size: 12px;
+    margin: 0 15px;
+}
+
+
+/* Sign-In scene */
+
+.palm-scene.sign-in-scene {
+    background: red;
+}
+
+#browserWindowHolder {
+    position: fixed;
+    width: 320px;
+    height: 480px;
+    top: 0;
+    left: 0;
+}
+
+/* Basic profile ownership */
+
+#profileOwnerName {
+    display: inline-block;
+    padding: 0 0 0 5px;
+    width: 235px;
+}
+
+.palm-scene.feed-scene .palm-page-header-wrapper .title {
+    padding-bottom: 10px;
+}
+
+/* Share Form */
+
+#shareForm {
+    position: relative;
+    top: 0;
+    left: 0;
+    
+    border-width: 7px 35px 7px 35px;
+    -webkit-border-image: url(../images/share-border.png) 7 35 7 35 repeat repeat;
+}
+
+#shareTextField {
+    width: 250px;
+}
+
+#shareTextField * {
+    font-size: 16px;
+}
+
+#shareTextField .text-edit {
+    margin-left: -23px;
+}
+
+#shareTextField .multiline-hint-text {
+    color: #444444;
+    font-size: 12px;
+    margin-left: -23px;
+}
+
+#shareButton {
+    float: right;
+    position: absolute;
+    margin: 5px -10px 0 0;
+    width: 50px;
+    height: 50px;
+    top: -7px;
+    right: -20px;
+}
+
+#shareButton.attach {
+    background: url(../images/attach-normal.png) no-repeat;
+}
+
+#shareButton.attach:active {
+    background: url(../images/attach-hover.png) no-repeat;
+}
+
+#shareButton.send {
+    background: url(../images/send-normal.png) no-repeat;
+}
+
+#shareButton.send:active {
+    background: url(../images/send-hover.png) no-repeat;
+}
+
+#shareAttachment {
+    position: relative;
+    padding: 0 0 5px 0;
+    top: 5px;
+    left: -19px;
+
+    max-width: 200px;
+    max-height: 100px;
+}
+
+img.profilePic, .feedEntry img.senderPic {
+    height: 35px;
+    vertical-align: text-top;
+}
+
+.feedEntry img.senderPic {
+    float: left;
+    vertical-align: bottom;
+    padding: 0 10px 0 0;
+}
+
+.feedEntry .senderName {
+    font-size: 16px;
+    font-weight: bold;
+    max-width: 240px;
+}
+
+.feedEntry .eventTime {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.feedEntry .eventContent {
+    padding: 5px 0 0 0px;
+    font-size: 16px;
+}
+
+.feedEntry .eventContent .attachment {
+    border-width: 8px;
+    -webkit-border-image: url(../images/attachment-border.png) 8 8 8 8 repeat repeat;
+    padding: 2px;
+    margin: 10px 0 0 0;
+}
+
+.feedEntry .eventContent .attachment .name {
+    font-size: 16px;
+}
+
+.feedEntry .eventContent .attachment .caption {
+    font-size: 12px;
+}
+
+.feedEntry .eventContent .attachment .picture  {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.feedEntry .eventContent .attachment .picture img {
+    margin: 5px 0;
+    max-width: 200px;
+    max-height: 800px;
+}
+
+.feedEntry .eventContent .attachment .description  {
+    font-size: 12px;
+}
+
+.feedEntry .rightFloater {
+    float: right;
+}
+
+.feedEntry .commentsFloater, .feedEntry .likesFloater {
+    padding: 0 5px 0 18px;
+    margin: 0 0 0 5px;
+    font-size: 12px;
+}
+
+.feedEntry .items-count-0 {
+    display: none;
+}
+
+.feedEntry .commentsFloater {
+    background: url(../images/balloon.png) left center no-repeat;
+}
+
+.feedEntry .likesFloater {
+    background: url(../images/thumb-up.png) left center no-repeat;
+    margin-bottom: 5px;
+}
+
+
+/* Generic stuff... */
+
+.palm-row-wrapper {
+    padding: 16px;
+}
+
+

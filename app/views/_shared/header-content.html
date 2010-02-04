@@ -1,0 +1,27 @@
+<div class="palm-page-header multi-line">
+  <div class="palm-page-header-wrapper">
+    <div class="title left">
+      <img id="profileOwnerPicture" class="profilePic" src="#{sender.picture}">
+      <span id="profileOwnerName" class="truncating-text">#{sender.name}</span>
+    </div>
+
+    <div id="currentStatusText" class="subtitle">
+      #{content}
+
+      <div class="attachment #{attachment.visible}">
+	<div class="name">
+	  <a href="#{attachment.href}">#{attachment.name}</a>
+	  <span class="caption" style="">#{attachment.caption}</span>
+
+	  <div class="picture">
+	    <a href="#{attachment.href}">
+	      <img src="#{attachment.picture}">
+	    </a>
+	  </div>
+	</div>
+	
+	<div class="description">#{-attachment.description}</div>
+      </div>
+    </div>
+  </div>
+</div>
